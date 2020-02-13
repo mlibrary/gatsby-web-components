@@ -5,3 +5,9 @@
  */
 
 // You can delete this file if you're not using it
+
+// Import Duet Web Components
+import { defineCustomElements } from "@umich-lib/components/loader"
+// ...
+// Register Duet Web Components
+defineCustomElements(window)
